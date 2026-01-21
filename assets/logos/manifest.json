@@ -1,0 +1,34 @@
+{
+  "logos": {
+    "primary": {
+      "file": "veritrust-logo-primary.svg",
+      "usage": ["website_header", "hero", "presentations", "documents"],
+      "backgrounds_allowed": ["brand.paper", "brand.ink"],
+      "min_width_px": 140,
+      "clearspace": "spacing.logo_clearspace.recommended"
+    },
+    "mono_dark": {
+      "file": "veritrust-logo-mono-dark.svg",
+      "usage": ["documents", "print", "emboss"],
+      "backgrounds_allowed": ["brand.paper"]
+    },
+    "mono_light": {
+      "file": "veritrust-logo-mono-light.svg",
+      "usage": ["dark_ui", "watermark"],
+      "backgrounds_allowed": ["brand.ink", "ui.surface.card_dark"]
+    },
+    "mark": {
+      "file": "veritrust-mark.svg",
+      "usage": ["favicon", "app_icon", "badges"],
+      "min_size_px": 24
+    }
+  },
+  "constraints": {
+    "do_not": [
+      "Do not rotate the mark",
+      "Do not apply drop shadows to the logo",
+      "Do not recolor outside approved mono variants",
+      "Do not outline the wordmark"
+    ]
+  }
+}

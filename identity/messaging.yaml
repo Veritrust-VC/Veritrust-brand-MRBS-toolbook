@@ -1,0 +1,61 @@
+messaging:
+  narrative:
+    elevator_pitch: >
+      VeriTrust is trust infrastructure for AI agents and MCP servers.
+      It uses decentralized identifiers (DIDs), verifiable credentials (VCs),
+      and queryable registries with revocation—so platforms can verify who runs a tool,
+      what it can do, and whether it is still allowed.
+    problem_statement:
+      - "MCP standardizes how agents call tools, but not who to trust."
+      - "Enterprises need identity, attestations, policy, and revocation."
+      - "Without governance, tool access becomes a supply-chain risk."
+    solution_statement:
+      - "DID-based identity for servers, agents, and issuers."
+      - "VC attestations for ownership, environment, audit/compliance status."
+      - "Trust registries for discovery + policy enforcement."
+      - "Revocation for fast containment when compromised."
+
+  key_messages:
+    pillar_1:
+      title: "Identity that can be verified"
+      points:
+        - "Every server/issuer can be anchored to a DID."
+        - "Keys and controllers are verifiable, not implied."
+    pillar_2:
+      title: "Attestations you can check"
+      points:
+        - "Use VCs for ownership, environment, audit status."
+        - "Support portable verification across ecosystems."
+    pillar_3:
+      title: "Governance you can enforce"
+      points:
+        - "Registries + policy define what is allowed."
+        - "Revocation enables containment and lifecycle control."
+
+  proof_points:
+    technical:
+      - "W3C DID and VC alignment (standards-first)."
+      - "Queryable registries with lookup/search."
+      - "Revocation status as a first-class concept."
+    operational:
+      - "Production deployment paths exist (ANS, registry, A2A)."
+
+  calls_to_action:
+    developer:
+      - "Resolve an agent name with ANS"
+      - "List MCP servers from the registry"
+      - "Verify a VC chain"
+    enterprise:
+      - "Define allowed issuers and policies"
+      - "Integrate verification in your tool gateway"
+      - "Set up revocation workflows"
+
+  boilerplate_descriptions:
+    short: "Verifiable identity and trust infrastructure for AI agents and MCP servers."
+    medium: >
+      VeriTrust provides DID-based identity, VC-based attestations, and policy-enforced registries
+      so AI platforms can verify tools and agents before use.
+    long: >
+      VeriTrust is trust infrastructure for the agentic ecosystem: decentralized identifiers (DIDs),
+      verifiable credentials (VCs), and registries with governance and revocation. It supports agent naming (ANS),
+      MCP trust registries, and delegation controls for enterprise-safe deployments.

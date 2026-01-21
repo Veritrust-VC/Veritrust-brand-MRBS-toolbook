@@ -1,0 +1,31 @@
+{
+  "spacing": {
+    "base_unit": { "$value": "4px", "$type": "dimension" },
+    "scale": {
+      "0": "0px",
+      "1": "4px",
+      "2": "8px",
+      "3": "12px",
+      "4": "16px",
+      "5": "20px",
+      "6": "24px",
+      "8": "32px",
+      "10": "40px",
+      "12": "48px",
+      "16": "64px",
+      "20": "80px",
+      "24": "96px"
+    },
+    "layout": {
+      "page_padding_desktop": "48px",
+      "page_padding_mobile": "20px",
+      "max_content_width": "1120px",
+      "section_gap": "64px",
+      "card_gap": "16px"
+    },
+    "logo_clearspace": {
+      "min": "16px",
+      "recommended": "24px"
+    }
+  }
+}

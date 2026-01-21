@@ -1,0 +1,14 @@
+{
+  "icon_style": {
+    "format": "svg",
+    "stroke": "2px",
+    "corner_radius": "soft",
+    "do_not": ["use emojis as icons in formal contexts"]
+  },
+  "icons": [
+    { "id": "shield-check", "file": "icon-shield-check.svg", "meaning": "verified / protected" },
+    { "id": "credential", "file": "icon-credential.svg", "meaning": "verifiable credential / attestation" },
+    { "id": "agent", "file": "icon-agent.svg", "meaning": "agent / identity subject" },
+    { "id": "registry", "file": "icon-registry.svg", "meaning": "registry / discovery / directory" }
+  ]
+}

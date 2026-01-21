@@ -1,0 +1,69 @@
+{
+  "$schema": "https://mrbs.dev/schema/v1/brand.manifest.json",
+  "mrbs_version": "1.0.0",
+  "version": "1.0.0",
+  "updated": "2026-01-21",
+
+  "organization": {
+    "name": "VeriTrust",
+    "legal_name": "VeriTrust (Brand / Product)",
+    "industry": "Digital Identity / Trust Infrastructure",
+    "website": "https://veritrust.vc",
+    "operating_model": "Product + Infrastructure Services",
+    "headquarters": "Global / Distributed",
+    "notes": "This SSOT describes the public VeriTrust brand for identity, trust, and governance infrastructure (ANS, MCP Trust Registry, A2A)."
+  },
+
+  "brand": {
+    "name": "VeriTrust",
+    "tagline": "Trust Infrastructure for the Agentic World",
+    "one_liner": "Verifiable identity, credentials, and governance for AI agents and MCP servers—built on W3C DID/VC.",
+    "positioning": {
+      "category": "Trust Infrastructure",
+      "primary_audience": ["Enterprise security teams", "AI platform builders", "Identity architects"],
+      "secondary_audience": ["MCP server operators", "Governance/Compliance owners", "Developers"],
+      "differentiators": [
+        "DID-based identity with verifiable controller keys",
+        "VC-based attestations: ownership, environment, audit status, compliance",
+        "Queryable registries with revocation status",
+        "Governance controls designed for enterprise deployment"
+      ]
+    }
+  },
+
+  "entrypoints": {
+    "primary_manifest": "./brand.manifest.json",
+    "tokens_primary": "./visual/colors.tokens.json",
+    "tokens_fallback_root": "./colors.tokens.json"
+  },
+
+  "components": {
+    "visual": "./visual/",
+    "identity": "./identity/",
+    "assets": "./assets/",
+    "templates": "./templates/",
+    "rules": "./rules/",
+    "examples": "./examples/"
+  },
+
+  "validation": {
+    "required_files": [
+      "./identity/brand-values.yaml",
+      "./identity/voice-tone.yaml",
+      "./identity/naming.yaml",
+      "./visual/colors.tokens.json",
+      "./visual/typography.tokens.json",
+      "./rules/constraints.yaml",
+      "./rules/accessibility.yaml",
+      "./rules/legal.yaml"
+    ],
+    "recommended_files": [
+      "./identity/messaging.yaml",
+      "./identity/personas.yaml",
+      "./rules/security-claims.yaml",
+      "./templates/presentation/manifest.json",
+      "./templates/web/components.manifest.json",
+      "./templates/documents/manifest.json"
+    ]
+  }
+}

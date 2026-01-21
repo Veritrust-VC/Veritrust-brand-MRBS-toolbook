@@ -1,0 +1,45 @@
+personas:
+  - id: "enterprise_security_owner"
+    name: "Enterprise Security Owner"
+    goals:
+      - "Reduce tool supply-chain risk"
+      - "Enforce policy for agent tool access"
+      - "Maintain auditability and revocation workflows"
+    concerns:
+      - "Unknown tool operators"
+      - "Unverifiable compliance claims"
+      - "Lack of containment if compromised"
+    messaging_angle:
+      - "Policy + revocation"
+      - "Audit-friendly verification"
+      - "Clear separation of responsibilities"
+
+  - id: "ai_platform_builder"
+    name: "AI Platform Builder / MCP Host"
+    goals:
+      - "Safely enable MCP tools at scale"
+      - "Automate allowlists and verification"
+      - "Provide a clean developer experience"
+    concerns:
+      - "Operational complexity"
+      - "Latency or reliability"
+      - "Confusing standards"
+    messaging_angle:
+      - "Mechanism-first docs"
+      - "Endpoints + examples"
+      - "Drop-in verification flows"
+
+  - id: "identity_engineer"
+    name: "Identity Engineer (PKI/SSI)"
+    goals:
+      - "Align identity with standards"
+      - "Verify keys, controllers, and issuers"
+      - "Ensure portability and interoperability"
+    concerns:
+      - "Proprietary lock-in"
+      - "Hand-wavy DID/VC usage"
+      - "Weak key management"
+    messaging_angle:
+      - "Standards alignment"
+      - "Explicit trust model"
+      - "Threat-model clarity"
