@@ -1,0 +1,44 @@
+constraints:
+  brand_voice:
+    must:
+      - "Mechanism-first: mention DID/VC/registry/policy before hype."
+      - "Claims must be testable or clearly framed as goals."
+      - "Use approved terms from identity/voice-tone.yaml glossary."
+    must_not:
+      - "No absolute security claims (unhackable, impossible to breach)."
+      - "No compliance guarantees without scope and conditions."
+      - "No vague superlatives without evidence."
+
+  copy_limits:
+    homepage_hero:
+      headline_max_chars: 56
+      subheadline_max_chars: 170
+      bullets_max: 4
+    feature_cards:
+      title_max_chars: 32
+      body_max_chars: 170
+    cta_buttons:
+      label_max_chars: 18
+
+  visual_usage:
+    colors:
+      allowed_backgrounds:
+        light: ["brand.paper", "ui.surface.card"]
+        dark: ["brand.ink", "ui.surface.card_dark"]
+      prohibited:
+        - "Do not use accent colors as large body text blocks."
+        - "Do not place signal_cyan text on paper without ensuring contrast."
+    typography:
+      body_min_size_px: 16
+      code_font_required_for_endpoints: true
+    spacing:
+      min_card_padding: "spacing.scale.4"
+      section_gap: "spacing.layout.section_gap"
+
+  logos:
+    clearspace_min: "spacing.logo_clearspace.min"
+    min_width_px: 140
+    do_not:
+      - "Do not stretch or condense"
+      - "Do not add shadows or outlines"
+      - "Do not recolor primary logo"

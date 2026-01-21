@@ -1,0 +1,85 @@
+{
+  "color": {
+    "brand": {
+      "ink": {
+        "$value": "#0B1220",
+        "$type": "color",
+        "semantic_role": "primary_ink",
+        "usage": ["headings", "ui_text_strong", "dark_backgrounds"],
+        "pair_with": ["paper", "mist", "signal_cyan"],
+        "min_contrast_ratio": 7.0
+      },
+      "paper": {
+        "$value": "#F7F9FC",
+        "$type": "color",
+        "semantic_role": "primary_background_light",
+        "usage": ["page_background", "cards", "docs"]
+      },
+      "mist": {
+        "$value": "#D7DEE9",
+        "$type": "color",
+        "semantic_role": "secondary_background_light",
+        "usage": ["borders", "dividers", "subtle_backgrounds"]
+      },
+      "signal_cyan": {
+        "$value": "#22D3EE",
+        "$type": "color",
+        "semantic_role": "primary_accent",
+        "usage": ["cta", "links", "active_state", "highlights"],
+        "prohibited_for": ["long_body_text"],
+        "min_contrast_ratio": 4.5
+      },
+      "signal_blue": {
+        "$value": "#3B82F6",
+        "$type": "color",
+        "semantic_role": "secondary_accent",
+        "usage": ["charts", "secondary_cta", "focus_rings"]
+      },
+      "trust_green": {
+        "$value": "#34D399",
+        "$type": "color",
+        "semantic_role": "success_verified",
+        "usage": ["verified_badges", "success_states", "compliance_ok"]
+      },
+      "warning_amber": {
+        "$value": "#FBBF24",
+        "$type": "color",
+        "semantic_role": "warning",
+        "usage": ["warnings", "caution_labels"]
+      },
+      "risk_red": {
+        "$value": "#FB7185",
+        "$type": "color",
+        "semantic_role": "risk_error",
+        "usage": ["errors", "revoked", "blocked", "policy_denied"]
+      }
+    },
+
+    "ui": {
+      "text": {
+        "primary": { "$value": "#0B1220", "$type": "color" },
+        "secondary": { "$value": "#334155", "$type": "color" },
+        "muted": { "$value": "#64748B", "$type": "color" },
+        "on_dark": { "$value": "#EAF0FA", "$type": "color" }
+      },
+      "surface": {
+        "card": { "$value": "#FFFFFF", "$type": "color" },
+        "card_dark": { "$value": "#0F1A2E", "$type": "color" },
+        "border": { "$value": "#D7DEE9", "$type": "color" },
+        "border_dark": { "$value": "#22314D", "$type": "color" }
+      }
+    },
+
+    "gradients": {
+      "hero_glow": {
+        "$type": "gradient",
+        "stops": [
+          { "color": "#22D3EE", "pos": 0 },
+          { "color": "#3B82F6", "pos": 60 },
+          { "color": "#0B1220", "pos": 100 }
+        ],
+        "usage": ["hero_backgrounds", "banner_glows"]
+      }
+    }
+  }
+}

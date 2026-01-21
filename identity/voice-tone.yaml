@@ -1,0 +1,54 @@
+voice:
+  core_attributes:
+    - "Authoritative, not arrogant"
+    - "Precise, not verbose"
+    - "Security-minded, not paranoid"
+    - "Standards-based, not buzzword-based"
+  writing_rules:
+    do:
+      - "Use concrete verbs: verify, issue, resolve, revoke, govern."
+      - "Name the mechanism (DID/VC/registry/policy) before the benefit."
+      - "Prefer short sentences. One claim per sentence."
+      - "When referencing standards, be explicit (W3C DID, W3C VC)."
+      - "Use examples with URLs/paths when useful (e.g., /.well-known/*)."
+    avoid:
+      - "Unqualified superlatives (best, world-class) without proof."
+      - "Hand-wavy phrases (next-gen magic, AI-first everything)."
+      - "Fearmongering language."
+      - "Ambiguous claims about compliance."
+  glossary:
+    preferred_terms:
+      "trust": "verifiable trust"
+      "identity": "decentralized identity (DID-based)"
+      "credential": "verifiable credential (VC)"
+      "registry": "trust registry (queryable + revocable)"
+      "agent_name": "Agent Name Service (ANS)"
+      "delegation": "A2A delegation controls"
+    prohibited_terms:
+      - "unhackable"
+      - "guaranteed compliant"
+      - "military-grade"
+      - "AI that always knows"
+  contexts:
+    homepage:
+      tone: "clear, confident, mechanism-first"
+      structure:
+        - "Problem: agents need trust"
+        - "Mechanism: DID/VC + registries"
+        - "Control: policy + revocation"
+        - "Call-to-action: integrate"
+    developer_docs:
+      tone: "concise, example-centric"
+      requirements:
+        - "Must include at least one request/response example per feature."
+        - "Must define error states and security assumptions."
+    enterprise_sales:
+      tone: "risk-aware, outcome-oriented"
+      requirements:
+        - "State what is verifiable and what is not."
+        - "Separate product capability from customer responsibility."
+    incident_or_outage:
+      tone: "calm, factual, timestamped"
+      requirements:
+        - "No speculation."
+        - "Provide mitigation, next update time, and scope."

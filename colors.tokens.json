@@ -1,0 +1,4 @@
+{
+  "note": "Convenience mirror of ./visual/colors.tokens.json for tools that expect root tokens.",
+  "ref": "./visual/colors.tokens.json"
+}

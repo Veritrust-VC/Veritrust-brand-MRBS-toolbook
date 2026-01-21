@@ -1,0 +1,52 @@
+brand_values:
+  mission: >
+    Provide verifiable identity, credentials, and governance infrastructure for AI agents,
+    MCP servers, and digital entities—so trust can be checked, not assumed.
+  vision: >
+    A practical, interoperable trust layer for the agentic internet: identities anchored in
+    cryptography, governed by policy, and verifiable across ecosystems.
+  principles:
+    - "Verifiable over declarative: trust must be provable."
+    - "Governable over permissive: allowlists, policies, and revocation matter."
+    - "Interoperable over proprietary: align with open standards."
+    - "Audit-friendly over vague: clarity beats hype."
+    - "Safety over speed: ship secure defaults."
+  values:
+    - "Integrity"
+    - "Precision"
+    - "Accountability"
+    - "Interoperability"
+    - "Security-by-default"
+  personality:
+    adjectives:
+      - "Authoritative"
+      - "Calm"
+      - "Engineering-led"
+      - "Enterprise-ready"
+      - "Plainspoken"
+    anti_adjectives:
+      - "Hypey"
+      - "Cryptic"
+      - "Trendy-for-trend’s-sake"
+      - "Overpromising"
+  audiences:
+    primary:
+      - "Enterprise security and IAM teams"
+      - "AI platform builders and MCP hosts"
+      - "Identity architects / PKI / SSI engineers"
+    secondary:
+      - "MCP server operators"
+      - "Compliance and governance leads"
+      - "Product and engineering leadership"
+  scope:
+    in_scope:
+      - "Identity (DIDs)"
+      - "Attestation (Verifiable Credentials)"
+      - "Discovery (registries)"
+      - "Governance (policy + revocation)"
+      - "Agent naming (ANS)"
+      - "Delegation controls (A2A)"
+    out_of_scope:
+      - "General LLM chatbot branding"
+      - "Consumer lifestyle branding"
+      - "Unverifiable marketing claims"

@@ -1,0 +1,7 @@
+accessibility:
+  standard: "WCAG 2.2 AA (target)"
+  contrast:
+    normal_text_min: 4.5
+    large_text_min: 3.0
+    ui_icons_min: 3.0
+  focus:

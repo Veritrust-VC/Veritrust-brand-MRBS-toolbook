@@ -1,0 +1,45 @@
+naming:
+  brand_name:
+    canonical: "VeriTrust"
+    casing_rules:
+      - "Always capitalize as 'VeriTrust' in titles and first mention."
+      - "Avoid 'Veritrust' unless matching an existing hostname or legacy reference."
+  product_names:
+    rules:
+      - "Use stable product nouns (Service, Registry, Framework)."
+      - "Avoid playful names for core security components."
+    canonical_products:
+      - name: "Agent Name Service"
+        short: "ANS"
+        hostnames:
+          - "ans.veritrust.vc"
+      - name: "MCP Trust Registry"
+        short: "MCP Registry"
+        hostnames:
+          - "ans.veritrust.vc/mcp"
+      - name: "MCP Trust Framework"
+        short: "MCPF"
+      - name: "A2A Delegation Registry"
+        short: "A2A Registry"
+        hostnames:
+          - "a2a.veritrust.vc"
+  endpoint_naming:
+    patterns:
+      well_known: "/.well-known/<resource>.json"
+      registry_base: "/mcp"
+      health: "/health or /mcp/health"
+      list: "/mcp/servers"
+      lookup: "/mcp/servers/{did}"
+      search: "/mcp/search?<filters>"
+  taglines:
+    approved:
+      - "Trust Infrastructure for the Agentic World"
+      - "Verifiable Identity and Governance for Agents"
+    avoid:
+      - "Trust for Everything"
+      - "The Only Trust Layer You Need"
+  filenames:
+    conventions:
+      - "kebab-case for markdown files"
+      - "lowercase for json/yaml"
+      - "svgs in assets/*"
